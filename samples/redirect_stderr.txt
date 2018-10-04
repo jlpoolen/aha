@@ -1,0 +1,649 @@
+ffmpeg version 4.0.2 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7.3.0 (Gentoo 7.3.0-r3 p1.4)
+  configuration: --prefix=/usr --libdir=/usr/lib64 --shlibdir=/usr/lib64 --docdir=/usr/share/doc/ffmpeg-4.0.2/html --mandir=/usr/share/man --enable-shared --cc=x86_64-pc-linux-gnu-gcc --cxx=x86_64-pc-linux-gnu-g++ --ar=x86_64-pc-linux-gnu-ar --optflags='-march=native -O2 -pipe' --disable-static --enable-avfilter --enable-avresample --disable-stripping --enable-nonfree --disable-indev=v4l2 --disable-outdev=v4l2 --disable-indev=alsa --disable-indev=oss --disable-indev=jack --disable-outdev=alsa --disable-outdev=oss --enable-bzlib --disable-runtime-cpudetect --disable-debug --disable-gcrypt --disable-gnutls --disable-gmp --enable-gpl --enable-hardcoded-tables --enable-iconv --disable-libtls --disable-lzma --enable-network --disable-opencl --enable-openssl --enable-postproc --disable-libsmbclient --enable-ffplay --enable-sdl2 --disable-vaapi --disable-vdpau --enable-xlib --disable-libxcb --disable-libxcb-shm --disable-libxcb-xfixes --enable-zlib --disable-libcdio --disable-libiec61883 --disable-libdc1394 --disable-libcaca --disable-openal --disable-opengl --disable-libv4l2 --disable-libpulse --disable-libdrm --disable-libopencore-amrwb --disable-libopencore-amrnb --disable-libcodec2 --disable-libfdk-aac --disable-libopenjpeg --disable-libbluray --disable-libcelt --disable-libgme --disable-libgsm --disable-mmal --disable-libmodplug --disable-libopus --disable-libilbc --disable-librtmp --disable-libssh --disable-libspeex --disable-librsvg --disable-ffnvcodec --disable-libvorbis --disable-libvpx --disable-libzvbi --disable-appkit --disable-libbs2b --disable-chromaprint --disable-libflite --disable-frei0r --disable-libfribidi --disable-fontconfig --disable-ladspa --disable-libass --disable-lv2 --disable-libfreetype --disable-librubberband --disable-libzmq --disable-libzimg --disable-libsoxr --enable-pthreads --disable-libvo-amrwbenc --enable-libmp3lame --disable-libkvazaar --disable-libaom --enable-libopenh264 --disable-libsnappy --disable-libtheora --disable-libtwolame --disable-libwavpack --disable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --disable-gnutls --disable-armv5te --disable-armv6 --disable-armv6t2 --disable-neon --disable-vfp --disable-vfpv3 --disable-armv8 --disable-mipsdsp --disable-mipsdspr2 --disable-mipsfpu --disable-altivec --disable-amd3dnow --disable-amd3dnowext --disable-aesni --disable-avx --disable-avx2 --disable-fma3 --disable-fma4 --disable-xop --cpu=host --disable-doc --disable-htmlpages --enable-manpages
+  libavutil      56. 14.100 / 56. 14.100
+  libavcodec     58. 18.100 / 58. 18.100
+  libavformat    58. 12.100 / 58. 12.100
+  libavdevice    58.  3.100 / 58.  3.100
+  libavfilter     7. 16.100 /  7. 16.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  1.100 /  5.  1.100
+  libswresample   3.  1.100 /  3.  1.100
+  libpostproc    55.  1.100 / 55.  1.100
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 20 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db79a4f20] [0m[48;5;0m[38;5;196merror while decoding MB 28 52, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db79a4f20] [0mconcealing 6101 DC, 6101 AC, 6101 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 61 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db79a4f20] [0m[48;5;0m[38;5;196merror while decoding MB 45 56, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db79a4f20] [0mconcealing 5444 DC, 5444 AC, 5444 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 17 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db79a4f20] [0mconcealing 14202 DC, 14202 AC, 14202 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 327 packets
+[0mInput #0, rtsp, from 'rtsp://admin:@192.168.1.49:554/h264Preview_01_main':
+  Metadata:
+    title           : Session streamed by "preview"
+    comment         : h264Preview_01_main
+  Duration: N/A, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: h264 (Main), yuv420p(progressive), 2560x1440, 12 tbr, 90k tbn, 180k tbc
+    Stream #0:1: Audio: aac (LC), 16000 Hz, mono, fltp
+File '/tmp/video/test.mp4' already exists. Overwrite ? [y/N] Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 28 52, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 6101 DC, 6101 AC, 6101 MV errors in P frame
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0musing cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mprofile High, level 5.0
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0m264 - core 152 - H.264/MPEG-4 AVC codec - Copyleft 2003-2017 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=12 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/tmp/video/test.mp4':
+  Metadata:
+    title           : Session streamed by "preview"
+    comment         : h264Preview_01_main
+    encoder         : Lavf58.12.100
+    Stream #0:0: Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 2560x1440, q=-1--1, 12 fps, 12288 tbn, 12 tbc
+    Metadata:
+      encoder         : Lavc58.18.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+    Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 16000 Hz, mono, fltp, 69 kb/s
+    Metadata:
+      encoder         : Lavc58.18.100 aac
+[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 45 56, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 5444 DC, 5444 AC, 5444 MV errors in P frame
+[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 14202 DC, 14202 AC, 14202 MV errors in P frame
+[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7275 DC, 7275 AC, 7275 MV errors in P frame
+frame=    7 fps=0.0 q=0.0 size=       0kB time=00:00:01.47 bitrate=   0.3kbits/s dup=1 drop=0 speed=2.22x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10100 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 4a84 expected=2310
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10101 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7431 DC, 7431 AC, 7431 MV errors in P frame
+frame=   35 fps= 30 q=0.0 size=       0kB time=00:00:04.67 bitrate=   0.1kbits/s dup=9 drop=0 speed=4.01x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 193 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 7 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 6956 DC, 6956 AC, 6956 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 11 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7226 DC, 7226 AC, 7226 MV errors in P frame
+frame=  206 fps= 10 q=26.0 size=    4352kB time=00:00:17.53 bitrate=2033.1kbits/s dup=177 drop=0 speed=0.865x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 267 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 13700 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 8159 expected=4bd5
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 13701 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7488 DC, 7488 AC, 7488 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 16 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 144 58, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 5025 DC, 5025 AC, 5025 MV errors in P frame
+frame=  209 fps= 10 q=26.0 size=    4352kB time=00:00:36.86 bitrate= 967.1kbits/s dup=177 drop=0 speed=1.77x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 73 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 59 59, bytestream -13
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 4950 DC, 4950 AC, 4950 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 47 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7323 DC, 7323 AC, 7323 MV errors in P frame
+frame=  439 fps= 12 q=26.0 size=    6400kB time=00:00:37.05 bitrate=1414.9kbits/s dup=404 drop=0 speed=0.982x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 234 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 12031 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq b204 expected=8305
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 12032 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 7382 DC, 7382 AC, 7382 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 23 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7544 DC, 7544 AC, 7544 MV errors in P frame
+frame=  443 fps= 12 q=26.0 size=    6400kB time=00:00:54.33 bitrate= 964.9kbits/s dup=405 drop=0 speed=1.42x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 221 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 0 12, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 12529 DC, 12529 AC, 12529 MV errors in I frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 61 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 12 57, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 5317 DC, 5317 AC, 5317 MV errors in P frame
+frame=  649 fps= 12 q=26.0 size=    8192kB time=00:00:54.52 bitrate=1230.7kbits/s dup=607 drop=0 speed=1.03x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 204 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10611 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq ddef expected=b47c
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10612 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 4921 DC, 4921 AC, 4921 MV errors in P frame
+frame=  652 fps= 12 q=26.0 size=    8448kB time=00:01:09.56 bitrate= 994.8kbits/s dup=608 drop=0 speed= 1.3x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 17 43, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7552 DC, 7552 AC, 7552 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 149 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7084 DC, 7084 AC, 7084 MV errors in P frame
+frame=  835 fps= 15 q=26.0 size=   10240kB time=00:01:10.08 bitrate=1197.0kbits/s dup=787 drop=0 speed= 1.3x    frame=  835 fps= 12 q=26.0 size=   10240kB time=00:01:10.14 bitrate=1195.9kbits/s dup=787 drop=0 speed=1.03x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 193 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -55395 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 0839 expected=e09c
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -55394 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 5400 DC, 5400 AC, 5400 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 6 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 4946 DC, 4946 AC, 4946 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 11 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 5 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7385 DC, 7385 AC, 7385 MV errors in P frame
+frame= 1013 fps= 15 q=26.0 size=   11520kB time=00:01:24.67 bitrate=1114.6kbits/s dup=959 drop=0 speed=1.23x    frame= 1013 fps= 12 q=26.0 size=   11520kB time=00:01:24.73 bitrate=1113.7kbits/s dup=959 drop=0 speed=1.03x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 186 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9882 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 2ff8 expected=095e
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9883 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7213 DC, 7213 AC, 7213 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 22 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 13 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 4775 DC, 4775 AC, 4775 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 64 packets
+[0mframe= 1017 fps= 12 q=26.0 size=   11520kB time=00:01:38.81 bitrate= 955.0kbits/s dup=959 drop=0 speed=1.19x    [48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7287 DC, 7287 AC, 7287 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 6 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7039 DC, 7039 AC, 7039 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7395 DC, 7395 AC, 7395 MV errors in P frame
+[48;5;0m[38;5;226mMore than 1000 frames duplicated
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7091 DC, 7091 AC, 7091 MV errors in P frame
+frame= 1185 fps= 12 q=26.0 size=   13056kB time=00:01:39.26 bitrate=1077.5kbits/s dup=1125 drop=0 speed=1.03x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 182 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9729 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 582a expected=3229
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9730 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7126 DC, 7126 AC, 7126 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 56 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7310 DC, 7310 AC, 7310 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 16 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7298 DC, 7298 AC, 7298 MV errors in P frame
+frame= 1190 fps= 12 q=26.0 size=   13056kB time=00:01:53.15 bitrate= 945.2kbits/s dup=1126 drop=0 speed=1.17x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 123 42, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7606 DC, 7606 AC, 7606 MV errors in P frame
+frame= 1354 fps= 12 q=26.0 size=   15104kB time=00:01:53.34 bitrate=1091.7kbits/s dup=1288 drop=0 speed=1.03x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 180 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9612 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 7f68 expected=59dc
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9613 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7421 DC, 7421 AC, 7421 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 18 42, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 7711 DC, 7711 AC, 7711 MV errors in P frame
+frame= 1360 fps= 12 q=26.0 size=   15104kB time=00:02:07.16 bitrate= 973.0kbits/s dup=1289 drop=0 speed=1.14x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 31 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 54 42, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7675 DC, 7675 AC, 7675 MV errors in P frame
+frame= 1522 fps= 12 q=26.0 size=   16128kB time=00:02:07.23 bitrate=1038.4kbits/s dup=1449 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9469 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq a643 expected=8146
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 181 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9598 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq a6c4 expected=8146
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9599 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7709 DC, 7709 AC, 7709 MV errors in P frame
+frame= 1525 fps= 12 q=26.0 size=   16128kB time=00:02:20.86 bitrate= 937.9kbits/s dup=1449 drop=0 speed=1.13x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 29 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 136 43, bytestream -7
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7433 DC, 7433 AC, 7433 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 87 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 129 43, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 7440 DC, 7440 AC, 7440 MV errors in P frame
+frame= 1689 fps= 12 q=26.0 size=   18432kB time=00:02:21.24 bitrate=1069.0kbits/s dup=1609 drop=0 speed=1.01x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 193 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10224 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq d05f expected=a86f
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10225 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7280 DC, 7280 AC, 7280 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 4 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 6881 DC, 6881 AC, 6881 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 10 43, bytestream -23
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7559 DC, 7559 AC, 7559 MV errors in P frame
+frame= 1694 fps= 12 q=26.0 size=   18432kB time=00:02:35.90 bitrate= 968.5kbits/s dup=1610 drop=0 speed=1.11x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 144 42, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7585 DC, 7585 AC, 7585 MV errors in P frame
+frame= 1868 fps= 12 q=26.0 size=   20480kB time=00:02:35.96 bitrate=1075.7kbits/s dup=1781 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 187 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9929 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq f8d5 expected=d20c
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9930 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 12416 DC, 12416 AC, 12416 MV errors in I frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 29 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 40 43, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 7529 DC, 7529 AC, 7529 MV errors in P frame
+frame= 1872 fps= 12 q=26.0 size=   20480kB time=00:02:50.11 bitrate= 986.2kbits/s dup=1781 drop=0 speed= 1.1x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 19 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 5943 DC, 5943 AC, 5943 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 16 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 15 58, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 5154 DC, 5154 AC, 5154 MV errors in P frame
+frame= 2042 fps= 12 q=26.0 size=   21760kB time=00:02:50.43 bitrate=1045.9kbits/s dup=1948 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 181 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -55979 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 209e expected=fb49
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -55978 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 4808 DC, 4808 AC, 4808 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 82 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 20 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 12422 DC, 12422 AC, 12422 MV errors in I frame
+frame= 2045 fps= 12 q=26.0 size=   21760kB time=00:03:04.25 bitrate= 967.4kbits/s dup=1948 drop=0 speed= 1.1x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 19 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 101 54, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 5708 DC, 5708 AC, 5708 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 60 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 41 58, bytestream -13
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 5128 DC, 5128 AC, 5128 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 3 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 2322 DC, 2322 AC, 2322 MV errors in P frame
+frame= 2210 fps= 12 q=26.0 size=   24320kB time=00:03:04.51 bitrate=1079.8kbits/s dup=2109 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 176 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9307 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 4727 expected=22cc
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9308 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 4034 DC, 4034 AC, 4034 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 140 42, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7589 DC, 7589 AC, 7589 MV errors in P frame
+frame= 2215 fps= 12 q=26.0 size=   24320kB time=00:03:17.88 bitrate=1006.8kbits/s dup=2110 drop=0 speed=1.09x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 223 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 0 12, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 12529 DC, 12529 AC, 12529 MV errors in I frame
+frame= 2216 fps= 12 q=26.0 size=   24320kB time=00:03:18.27 bitrate=1004.8kbits/s dup=2110 drop=0 speed=1.09x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 148 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 130 57, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 5199 DC, 5199 AC, 5199 MV errors in P frame
+frame= 2377 fps= 12 q=26.0 size=   26112kB time=00:03:18.65 bitrate=1076.8kbits/s dup=2269 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 170 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9083 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 6e1f expected=4aa4
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9084 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 7481 DC, 7481 AC, 7481 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 74 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7438 DC, 7438 AC, 7438 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 6336 DC, 6336 AC, 6336 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 6 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7352 DC, 7352 AC, 7352 MV errors in P frame
+frame= 2385 fps= 12 q=26.0 size=   26368kB time=00:03:31.77 bitrate=1020.0kbits/s dup=2273 drop=0 speed=1.08x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 337 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 114 43, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7455 DC, 7455 AC, 7455 MV errors in P frame
+frame= 2539 fps= 12 q=26.0 size=   27648kB time=00:03:32.22 bitrate=1067.2kbits/s dup=2425 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 12 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8876 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 93ae expected=7102
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8877 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 5394 DC, 5394 AC, 5394 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 167 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 10 43, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7559 DC, 7559 AC, 7559 MV errors in P frame
+frame= 2543 fps= 12 q=26.0 size=   27904kB time=00:03:45.15 bitrate=1015.3kbits/s dup=2426 drop=0 speed=1.08x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 147 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 11 43, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7558 DC, 7558 AC, 7558 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 155 packets
+[0mframe= 2548 fps= 12 q=26.0 size=   27904kB time=00:03:45.60 bitrate=1013.3kbits/s dup=2429 drop=0 speed=1.08x    [48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7490 DC, 7490 AC, 7490 MV errors in P frame
+frame= 2700 fps= 12 q=26.0 size=   29184kB time=00:03:45.66 bitrate=1059.4kbits/s dup=2580 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 156 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8401 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq b76e expected=969d
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 8402 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7346 DC, 7346 AC, 7346 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 31 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 92 41, bytestream -17
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7797 DC, 7797 AC, 7797 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 116 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 3 1, bytestream -21
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 14286 DC, 14286 AC, 14286 MV errors in P frame
+frame= 2709 fps= 12 q=26.0 size=   29184kB time=00:03:57.82 bitrate=1005.3kbits/s dup=2585 drop=0 speed=1.07x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 1 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196mleft block unavailable for requested intra mode
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 0 50, bytestream 34477
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 6449 DC, 6449 AC, 6449 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 372 packets
+[0mframe= 2710 fps= 12 q=26.0 size=   29184kB time=00:03:58.40 bitrate=1002.8kbits/s dup=2585 drop=0 speed=1.07x    [48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 1 43, bytestream -7
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7568 DC, 7568 AC, 7568 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 16 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 3 59, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 5006 DC, 5006 AC, 5006 MV errors in P frame
+frame= 2855 fps= 12 q=26.0 size=   31488kB time=00:03:58.59 bitrate=1081.1kbits/s dup=2728 drop=0 speed=1.01x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 169 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9068 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq de92 expected=bb26
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 9069 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196mleft block unavailable for requested intra mode
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 0 60, bytestream 79837
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 4849 DC, 4849 AC, 4849 MV errors in P frame
+frame= 2855 fps= 12 q=26.0 size=   31488kB time=00:04:11.71 bitrate=1024.8kbits/s dup=2728 drop=0 speed=1.07x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 31 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 60 42, bytestream -15
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7669 DC, 7669 AC, 7669 MV errors in P frame
+frame= 2864 fps= 12 q=26.0 size=   31488kB time=00:04:11.71 bitrate=1024.8kbits/s dup=2735 drop=0 speed=1.07x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 532 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 28 41, bytestream -19
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7861 DC, 7861 AC, 7861 MV errors in P frame
+frame= 3018 fps= 12 q=26.0 size=   32256kB time=00:04:12.41 bitrate=1046.8kbits/s dup=2887 drop=0 speed=1.02x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 163 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -56756 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 0475 expected=e229
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed -56755 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 4900 DC, 4900 AC, 4900 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 19 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 9486 DC, 9486 AC, 9486 MV errors in P frame
+frame= 3021 fps= 12 q=26.0 size=   32512kB time=00:04:25.02 bitrate=1005.0kbits/s dup=2887 drop=0 speed=1.06x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 30 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 1 43, bytestream -7
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7568 DC, 7568 AC, 7568 MV errors in P frame
+frame= 3030 fps= 12 q=26.0 size=   32512kB time=00:04:25.15 bitrate=1004.5kbits/s dup=2894 drop=0 speed=1.06x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 3 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 121 85, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 728 DC, 728 AC, 728 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 516 packets
+[0mframe= 3179 fps= 12 q=26.0 size=   34560kB time=00:04:26.04 bitrate=1064.2kbits/s dup=3041 drop=0 speed=1.01x    [48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7584 DC, 7584 AC, 7584 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10369 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 3184 expected=0903
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 202 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10427 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 31be expected=0903
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 10428 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 6084 DC, 6084 AC, 6084 MV errors in P frame
+frame= 3182 fps= 12 q=26.0 size=   34560kB time=00:04:41.15 bitrate=1007.0kbits/s dup=3041 drop=0 speed=1.06x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 48 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7089 DC, 7089 AC, 7089 MV errors in P frame
+frame= 3193 fps= 12 q=26.0 size=   34560kB time=00:04:41.21 bitrate=1006.8kbits/s dup=3050 drop=0 speed=1.06x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 31 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 886 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 5 1, bytestream -17
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 14284 DC, 14284 AC, 14284 MV errors in P frame
+[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 127 41, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 7762 DC, 7762 AC, 7762 MV errors in P frame
+frame= 3372 fps= 11 q=26.0 size=   36096kB time=00:04:42.49 bitrate=1046.7kbits/s dup=3226 drop=0 speed=0.961x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 19845 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;196mRTP: PT=60: bad cseq 845d expected=36d8
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 19846 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 4729 DC, 4729 AC, 4729 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 402 packets
+[0mframe= 3374 fps= 11 q=26.0 size=   36096kB time=00:04:44.28 bitrate=1040.1kbits/s dup=3227 drop=0 speed=0.966x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 237 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 171 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0m[48;5;0m[38;5;196merror while decoding MB 4 52, bytestream -13
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a120d0] [0mconcealing 6125 DC, 6125 AC, 6125 MV errors in P frame
+frame= 3376 fps= 11 q=26.0 size=   36096kB time=00:05:10.97 bitrate= 950.9kbits/s dup=3227 drop=0 speed=1.05x    [48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 3 1, bytestream -7
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 14286 DC, 14286 AC, 14286 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 31 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 15 42, bytestream -15
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7714 DC, 7714 AC, 7714 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 232 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 4 1, bytestream -11
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 14285 DC, 14285 AC, 14285 MV errors in P frame
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:05:11.36 bitrate=1017.1kbits/s dup=3571 drop=0 speed=0.893x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 114 times
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 18 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 805 packets
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 349 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:05.18 bitrate= 867.2kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 349 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:05.69 bitrate= 865.9kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 443 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:06.20 bitrate= 864.7kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 244 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:06.72 bitrate= 863.5kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 367 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:07.23 bitrate= 862.3kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 360 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:07.74 bitrate= 861.1kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 487 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:08.32 bitrate= 859.8kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 332 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:08.83 bitrate= 858.6kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 392 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:09.40 bitrate= 857.2kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 487 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:09.92 bitrate= 856.1kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 159 times
+frame= 3722 fps= 11 q=26.0 size=   38656kB time=00:06:10.49 bitrate= 854.7kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 347 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:11.00 bitrate= 853.5kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 408 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:11.52 bitrate= 852.4kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 423 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:11.96 bitrate= 851.3kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 325 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:12.54 bitrate= 850.0kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 401 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:13.12 bitrate= 848.7kbits/s dup=3571 drop=0 speed=1.05x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 347 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:13.63 bitrate= 847.5kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 449 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:14.14 bitrate= 846.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 275 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:14.65 bitrate= 845.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 363 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:15.16 bitrate= 844.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 413 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:15.74 bitrate= 842.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 448 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:16.25 bitrate= 841.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 326 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:16.83 bitrate= 840.3kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 406 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:17.34 bitrate= 839.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 481 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:17.92 bitrate= 837.9kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 327 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:18.43 bitrate= 836.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 342 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:18.94 bitrate= 835.7kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 287 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:19.45 bitrate= 834.5kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 475 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:19.96 bitrate= 833.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 318 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:20.48 bitrate= 832.3kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 349 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:20.99 bitrate= 831.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 344 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:21.50 bitrate= 830.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 480 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:22.01 bitrate= 828.9kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 324 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:22.52 bitrate= 827.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 350 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:23.04 bitrate= 826.7kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 346 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:23.55 bitrate= 825.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 470 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:24.06 bitrate= 824.5kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 276 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:24.57 bitrate= 823.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 354 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:25.08 bitrate= 822.3kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 398 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:25.66 bitrate= 821.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 494 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:26.17 bitrate= 820.0kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 265 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:26.75 bitrate= 818.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 442 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:27.26 bitrate= 817.7kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 285 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:27.77 bitrate= 816.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 439 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:28.28 bitrate= 815.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 350 times
+frame= 3722 fps= 10 q=26.0 size=   38656kB time=00:06:28.80 bitrate= 814.5kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 353 times
+frame= 3722 fps= 10 q=26.0 size=   38912kB time=00:06:29.31 bitrate= 818.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 401 times
+frame= 3722 fps= 10 q=26.0 size=   38912kB time=00:06:29.82 bitrate= 817.7kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 414 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:30.33 bitrate= 816.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 344 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:30.91 bitrate= 815.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 408 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:31.42 bitrate= 814.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 480 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:32.00 bitrate= 813.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 325 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:32.51 bitrate= 812.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 286 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:33.02 bitrate= 811.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 350 times
+frame= 3722 fps=9.9 q=26.0 size=   38912kB time=00:06:33.53 bitrate= 810.0kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 526 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:34.04 bitrate= 809.0kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 276 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:34.56 bitrate= 807.9kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 349 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:35.07 bitrate= 806.9kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 344 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:35.58 bitrate= 805.8kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 558 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:36.16 bitrate= 804.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 246 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:36.67 bitrate= 803.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 345 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:37.18 bitrate= 802.6kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 402 times
+frame= 3722 fps=9.8 q=26.0 size=   38912kB time=00:06:37.76 bitrate= 801.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 443 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:38.27 bitrate= 800.4kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 288 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:38.78 bitrate= 799.3kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 461 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:39.36 bitrate= 798.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 287 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:39.87 bitrate= 797.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 432 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:40.38 bitrate= 796.2kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 412 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:40.89 bitrate= 795.1kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 360 times
+frame= 3722 fps=9.7 q=26.0 size=   38912kB time=00:06:41.47 bitrate= 794.0kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 477 times
+frame= 3722 fps=9.6 q=26.0 size=   38912kB time=00:06:41.98 bitrate= 793.0kbits/s dup=3571 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: dropping old packet received too late
+[0m    Last message repeated 110 times
+[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7703 DC, 7703 AC, 7703 MV errors in P frame
+frame= 3731 fps=9.6 q=26.0 size=   38912kB time=00:06:42.24 bitrate= 792.5kbits/s dup=3579 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 334 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0m[48;5;0m[38;5;196merror while decoding MB 19 58, bytestream -13
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a38b50] [0mconcealing 5150 DC, 5150 AC, 5150 MV errors in P frame
+[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 88 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0m[48;5;0m[38;5;196merror while decoding MB 12 43, bytestream -9
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7c49320] [0mconcealing 7557 DC, 7557 AC, 7557 MV errors in P frame
+frame= 3738 fps=9.6 q=26.0 size=   38912kB time=00:06:43.13 bitrate= 790.7kbits/s dup=3582 drop=0 speed=1.04x    [48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mmax delay reached. need to consume packet
+[0m[48;5;0m[38;5;207m[rtsp @ 0x560db79a1a50] [0m[48;5;0m[38;5;226mRTP: missed 319 packets
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0m[48;5;0m[38;5;196merror while decoding MB 11 42, bytestream -5
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a037c0] [0mconcealing 7718 DC, 7718 AC, 7718 MV errors in P frame
+frame= 4828 fps= 10 q=26.0 size=   43776kB time=00:06:43.77 bitrate= 888.1kbits/s dup=4671 drop=0 speed=0.852x    [48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0m[48;5;0m[38;5;196merror while decoding MB 24 42, bytestream -7
+[0m[48;5;0m[38;5;39m[h264 @ 0x560db7a0ae70] [0mconcealing 7705 DC, 7705 AC, 7705 MV errors in P frame
+[48;5;0m[38;5;196mrtsp://admin:@192.168.1.49:554/h264Preview_01_main: Connection timed out
+[0mframe= 4838 fps= 10 q=26.0 size=   43776kB time=00:06:45.50 bitrate= 884.4kbits/s dup=4679 drop=0 speed=0.837x    [48;5;0m[38;5;196mrtsp://admin:@192.168.1.49:554/h264Preview_01_main: Connection timed out
+[0mframe= 4839 fps=9.8 q=26.0 size=   43776kB time=00:06:45.50 bitrate= 884.4kbits/s dup=4679 drop=0 speed=0.82x    [48;5;0m[38;5;196mrtsp://admin:@192.168.1.49:554/h264Preview_01_main: Connection timed out
+[0mframe= 4839 fps=9.6 q=26.0 size=   43776kB time=00:06:45.50 bitrate= 884.4kbits/s dup=4679 drop=0 speed=0.804x    frame= 4840 fps=9.4 q=26.0 size=   43776kB time=00:06:45.50 bitrate= 884.4kbits/s dup=4680 drop=0 speed=0.788x    frame= 4840 fps=9.3 q=-1.0 Lsize=   44949kB time=00:06:45.63 bitrate= 907.8kbits/s dup=4681 drop=0 speed=0.782x    
+video:44045kB audio:836kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.150800%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mframe I:22    Avg QP:12.34  size:731523
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mframe P:1219  Avg QP:14.71  size: 17694
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mframe B:3599  Avg QP:27.17  size:  2067
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mconsecutive B-frames:  0.7%  0.2%  0.4% 98.7%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mmb I  I16..4: 14.0% 31.5% 54.5%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mmb P  I16..4:  0.3%  0.7%  0.9%  P16..4:  3.6%  0.6%  0.6%  0.0%  0.0%    skip:93.3%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mmb B  I16..4:  0.0%  0.0%  0.1%  B16..8:  2.0%  0.2%  0.1%  direct: 0.1%  skip:97.5%  L0:42.6% L1:54.2% BI: 3.2%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0m8x8 transform intra:34.1% inter:39.0%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mcoded y,uvDC,uvAC intra: 94.8% 1.5% 0.8% inter: 1.1% 0.0% 0.0%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mi16 v,h,dc,p: 17%  9% 56% 18%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mi8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 25% 15% 21%  5%  6%  6%  6%  7%  9%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mi4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 20% 16% 19%  8%  8%  7%  7%  7%  8%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mi8c dc,h,v,p: 99%  0%  0%  0%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mWeighted P-Frames: Y:0.0% UV:0.0%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mref P L0: 81.8%  4.4% 12.5%  1.3%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mref B L0: 92.3%  6.8%  0.9%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mref B L1: 92.9%  7.1%
+[48;5;0m[38;5;51m[libx264 @ 0x560db7a063c0] [0mkb/s:894.57
+[48;5;0m[38;5;51m[aac @ 0x560db7a36e10] [0mQavg: 121.735
